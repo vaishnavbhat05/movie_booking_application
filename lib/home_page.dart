@@ -52,7 +52,7 @@ class _HomePageState extends State<HomePage> {
         centerTitle: true,
         title: hinge != null && hinge.bounds.width < hinge.bounds.height
             ? const Align(
-                alignment: Alignment.topCenter, child: Text('Movie Booking'))
+                alignment: Alignment.topLeft, child: Text('Movie Booking'))
             : const Text('Movie Booking'),
       ),
       body: isLoading
